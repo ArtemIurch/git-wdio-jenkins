@@ -10,7 +10,7 @@ describe('My Login application', () => {
 
         await expect($('#flash')).toBeExisting()
         await expect($('#flash')).toHaveText(
-            expect.stringContaining('You logged into a secure area!'))
+            expect.stringContaining('1'))
     })
 })
 
